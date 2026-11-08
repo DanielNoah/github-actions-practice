@@ -190,3 +190,11 @@ printf 'original\n' > /tmp/baseline-lab/example.txt
 ## 7. 이 예제들이 제공하지 않는 기능
 
 이 네 스크립트는 로그 수집, 해시 비교, ICMP 응답 확인, 패키지 목록 추출을 보여 주는 학습 예제입니다. 이 자체로 공격을 탐지·차단하거나, 정전 중 시스템을 계속 가동하거나, 백업에서 서비스를 복구하지는 않습니다. 핵심 인프라 대응에는 전력·냉각 이중화, 오프사이트 백업, 별도 보관된 로그, 접근 통제, 복구 훈련과 승인된 사고 대응 절차가 필요합니다.
+
+## 참고 자료 및 출처
+
+- Troncone, Paul, and Carl Albing. *Cybersecurity Ops with bash: Attack, Defend, and Analyze from the Command Line*. O’Reilly Media, 2019. 이 안내서에서 다룬 챕터와 스크립트의 원래 학습 맥락입니다.
+- 책에 포함된 예제 스크립트 저장소: [cybersecurityops/cyber-ops-with-bash](https://github.com/cybersecurityops/cyber-ops-with-bash). 이 안내서에서 참고한 파일은 `ch05/winlogs.sh`, `ch10/baseline.sh`, `ch19/pingmonitor.sh`, `ch20/softinv.sh`입니다. 저장소의 `readme.txt`는 스크립트 버전을 1.0으로 표시하고, 예제는 교육용이며 실제 운영 배포 전에 주의와 테스트가 필요하다고 안내합니다.
+- 프로젝트 웹사이트: [rapidcyberops.com](https://www.rapidcyberops.com/). 저장소 README가 제공하는 링크입니다.
+
+스크립트의 저작권과 재배포 조건은 원본 저장소의 [LICENSE](https://github.com/cybersecurityops/cyber-ops-with-bash/blob/master/LICENSE)를 확인하세요. 이 안내서의 구조 설명, 커스터마이징 제안 및 안전성 관련 주의사항은 원본 코드와 README를 검토해 작성한 해설이며, 책의 직접 인용문은 아닙니다.
